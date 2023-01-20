@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Roboto+Mono:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Reset*/
+:root {
+    --primary-text-color: #47b5ed;
+    --secondary-text-color: #fff;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+/*Uility*/
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Top-Nav*/
+.top-nav {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.logo-text p {
+    font-size: 40px;
+    color: var(--primary-text-color);
+    letter-spacing: 1.8px;
+    margin-top: 10px;
+}
+
+.list-item ul li {
+    font-size: 18px;
+    color: #6c758f;
+}
+
+.hd-icon a {
+    height: 60px;
+    width: 60px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 60px;
+    font-size: 20px;
+    color: var(--primary-text-color);
+    box-shadow: 1px 1px 1px #6c758f, -1px -1px 1px #6c758f;
+    background-color: #ffffff;
+}
+
+/*Home*/
+.main-section {
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    background-image: linear-gradient(rgb(53, 190, 300), rgba(10, 0, 0, 0)), url(./assets/asset\ 6.jpeg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-section {
+    padding-bottom: 125px;
+    gap: 25px;
+}
+
+.main-section h4 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.main-section p {
+    width: 630px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.main-section-button {
+    margin-top: 25px;
+}
+
+.main-button {
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.primary-button {
+    background-color: #36187d;
+    color: #fafafa;
+}
+
+.secondary-button {
+    background-color: #fafafa;
+    color: #6c758f;
+}
+
+/*Section*/
+.section-icon{
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12%;
+}
+.section-icon a {
+   font-size: 70px;
+   height: 170px;
+   width: 170px;
+   border-radius: 100%;
+   line-height: 170px;
+}
+
+.section-icon span{
+    align-items: center;
+}
