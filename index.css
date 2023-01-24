@@ -14,7 +14,7 @@
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1070px;
     margin: auto;
 }
 
@@ -63,8 +63,8 @@ a {
     line-height: 60px;
     font-size: 20px;
     color: var(--primary-text-color);
-    box-shadow: 1px 1px 1px #6c758f, -1px -1px 1px #6c758f;
-    background-color: #ffffff;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /*Home*/
@@ -118,19 +118,83 @@ a {
 }
 
 /*Section*/
-.section-icon{
+.section-first {
+    flex-direction: column;
+}
+
+.section-icon {
     justify-content: space-between;
     width: 100%;
     margin-top: 12%;
 }
+
 .section-icon a {
-   font-size: 70px;
-   height: 170px;
-   width: 170px;
-   border-radius: 100%;
-   line-height: 170px;
+    font-size: 70px;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    line-height: 170px;
 }
 
-.section-icon span{
+.section-icon span {
     align-items: center;
+}
+
+.main-section-text {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.main-section-text a {
+    background-color: #ea2396;
+    border-radius: 40px;
+    padding: 20px 40px;
+    color: var(--secondary-text-color);
+}
+
+/*About*/
+.about {
+    padding-top: 90px;
+
+}
+
+.about-section {
+    gap: 70px;
+}
+
+.about-cctv span {
+    font-size: 40px;
+    color: #36187d;
+}
+
+.about-cctv p {
+    text-align: justify;
+    font-family: sans-serif;
+    color: #6c758f;
+    padding-top: 20px;
+}
+
+.about-features {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-features span {
+    font-size: 25px;
+    color: #36187d;
+}
+
+.icon-text {
+    gap: 30px;
+}
+
+.icon-text p {
+    color: #6c758f;
+
+}
+
+.about-features p {
+    font-family: sans-serif;
+
 }
