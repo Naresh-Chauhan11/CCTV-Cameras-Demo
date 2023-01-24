@@ -161,6 +161,8 @@ a {
 
 .about-section {
     gap: 70px;
+    /* width: 600px; */
+
 }
 
 .about-cctv span {
@@ -197,4 +199,73 @@ a {
 .about-features p {
     font-family: sans-serif;
 
+}
+
+/*our service*/
+.service-heading {
+    font-size: 40px;
+    padding: 30px;
+    color: #36187d;
+
+}
+
+.service-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.card {
+    height: 130px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 60px;
+    font-size: 20px;
+    color: var(--primary-text-color);
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    /* background-color: #ffffff; */
+    flex-basis: 515px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.service-card span {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.span-red {
+    color: #ea2396;
+}
+
+/*security images*/
+
+.security-images {
+    padding-top: 40px;
+}
+
+.card-images {
+    width: 500px;
+    height: 400px;
+}
+.card{
+    /* height: 350px;                                                                                                                                    */
+}
+
+.card-images img {
+    width: 450px;
+    border-radius: 50px;
+}
+.abc{
+    flex-wrap: wrap;
+}
+.card-two img{
+    height: 265px;
+    
+}
+.card-two{
+    padding-top: 15px;
 }
